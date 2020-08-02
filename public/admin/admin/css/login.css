@@ -1,0 +1,218 @@
+/** RESET CSS **/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/** DÙNG CHUNG **/
+body {
+    background: #32323A url('../images/login/login-bg.jpg');
+    font: 12px/21px Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    
+}
+
+fieldset {
+    border: 1px solid #efefef;
+    padding: 20px;
+    /** CSS 3.0 **/
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+legend {
+    padding: 0px 20px;
+}
+
+label {
+    width: 110px;
+    float: left;
+    padding: 3px 10px 0px 0px;
+}
+
+div.input-group {
+    margin-bottom: 15px;
+}
+
+div.input-group-msg {
+    font-size: 16px;
+}
+
+div.input-item {
+    margin-left: 110px;
+    padding-right: 8px;
+}
+
+div.input-item label {
+    width: auto;
+    padding-right: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=text], textarea, select {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 3px 5px 3px;
+    resize: none;
+    margin: 0px;
+    color: #666;
+    /** CSS 3.0 **/
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    background: url('../images/login/blue-title.jpg') repeat-x left center;
+    padding: 0px 25px;
+    color: white;
+    cursor: pointer;
+    /** CSS 3.0 **/
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+    background: url('../images/login/bg-button-hover.png') repeat-x left center;
+}
+
+.error_msg {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 5px 10px 54px;
+    border: 1px dotted pink;
+    background: #FEF5F5 url("../images/login/error.png") no-repeat 15px center;
+    /** CSS 3.0 **/
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.clear-fix:after {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    clear: both;
+}
+
+/** DÙNG RIÊNG **/
+/** LAYOUT TRANG ĐĂNG NHẬP
+ ******************************/
+#layout {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/** HỘP THOẠI ĐĂNG NHẬP
+ ******************************/
+#login-box {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+
+#login-box h3 {
+    height: 50px;
+    font: normal 17px/50px Arial;
+    background: #4C6E94;
+    padding: 0px 25px;
+    color: white;
+    text-transform: uppercase;
+    /** CSS 3.0 **/
+    border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    text-align: center;
+}
+
+#login-box .content {
+    background: white;
+    padding: 25px 25px 10px 25px;
+    color: #aaa;
+    /** CSS 3.0 **/
+    border-radius: 0px 0px 4px 4px;
+    -moz-border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+}
+
+
+/** NHÃN ĐĂNG NHẬP
+ ******************************/
+#login-box label.username, #login-box label.password {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-right: none;
+    /** CSS 3.0 **/
+    border-radius: 3px 0px 0px 3px;
+    -moz-border-radius: 3px 0px 0px 3px;
+    -webkit-border-radius: 3px 0px 0px 3px;
+}
+
+#login-box label.username {
+    background: url('../images/login/username-label-icon.png') no-repeat center center;
+}
+
+#login-box label.password {
+    background: url('../images/login/password-label-icon.png') no-repeat center center;
+}
+
+
+/** INPUT ĐĂNG NHẬP
+ ******************************/
+#login-box div.input-item {
+    margin-left: 41px;
+    padding-right: 22px;
+}
+
+#login-box input.user-info {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+    /** CSS 3.0 **/
+    border-radius: 0px 3px 3px 0px;
+    -moz-border-radius: 0px 3px 3px 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+}
+
+#login-box input.login-button {
+    float:  right;
+}
+
+#login-box a.back-to-home {
+    color: #555;
+    display: inline-block;
+    background: url('../images/login/back-to-site-icon.png') no-repeat left center;
+    padding: 0px 10px 0px 25px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}

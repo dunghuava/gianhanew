@@ -1,0 +1,8 @@
+[30-Sep-2019 14:05:45 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_URI::uri_tring() in /home/banmypha/public_html/application/modules/default/controllers/Postting.php on line 131
+[01-Oct-2019 02:28:55 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function show404() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 31
+[02-Oct-2019 04:03:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function show404() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 17
+[02-Oct-2019 15:15:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function show404() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 31
+[02-Oct-2019 19:32:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function base_urr() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 82
+[02-Oct-2019 20:24:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function show404() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 17
+[03-Oct-2019 08:24:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function show404() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 17
+[04-Oct-2019 02:25:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function show404() in /home/banmypha/public_html/application/modules/default/controllers/PathsController.php on line 17

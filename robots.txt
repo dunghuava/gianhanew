@@ -1,0 +1,4 @@
+Sitemap: http://nhadat.vanphonghochiminh.com/seo/sitemap.xml
+User-agent: *
+Disallow: /system/*
+Disallow: /system/
